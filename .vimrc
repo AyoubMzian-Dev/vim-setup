@@ -15,6 +15,7 @@ source ~/vim-setup/config/rust.vim
 source ~/vim-setup/config/plugins.vim
 
 " General mappings
+let mapleader = " "
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
 nnoremap <leader>h :nohlsearch<CR>
