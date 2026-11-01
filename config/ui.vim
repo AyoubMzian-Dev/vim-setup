@@ -11,4 +11,4 @@ set cmdheight=2
 set termguicolors
 
 " Color scheme
-colorscheme desert
+colorscheme onedark
