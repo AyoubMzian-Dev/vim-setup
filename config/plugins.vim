@@ -1,5 +1,9 @@
 " ---------- Plugin Management ----------
-call plug#begin("~/.vim/plugged")
+if exists("g:plug_home")
+    call plug#begin(g:plug_home . "/plugged")
+else
+    call plug#begin("~/.vim/plugged")
+endif
 
 Plug "rust-lang/rust.vim"
 Plug "vim-airline/vim-airline"
